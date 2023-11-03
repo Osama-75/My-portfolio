@@ -1,0 +1,54 @@
+.portfolio-page {
+    position: relative;
+    height: 100%;
+}
+
+.proj-zone { 
+    position: relative;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.arrow-left, .arrow-right {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    z-index: 10;
+    color: #ffd700;
+    font-size: 30px;
+}
+
+.arrow-right {
+    top: 5%;
+}
+.arrow-left {
+    bottom: 5%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .portfolio-page {
+        .proj-zone{
+            transform: translateY(20%);
+        }
+        .arrow-left {
+            bottom: -35%;
+        }
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .proj-zone{
+        margin-right: 5px;
+        left: 5%;
+    }
+}
+
+
