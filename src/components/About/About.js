@@ -39,7 +39,7 @@ export default function About() {
                         development as a freelancer.
                     </p>
                     <a
-                        href=" "
+                        href="https://1drv.ms/b/s!Au50E0-gfzDNaYNZ2vB2E3uZ1-c?e=QkLzi0"
                         target="_blank"
                         rel="noreferrer"
                         className="flat-button"

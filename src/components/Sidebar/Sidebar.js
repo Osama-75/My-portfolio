@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import LogoO from '../../assets/images/logo-o.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHome, faUser, faEnvelope, faSuitcase, faBars, faClose, faStar,} from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin, faGithub, faYoutube, faSkype, faFacebook,} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faFacebook, faWhatsapp,} from '@fortawesome/free-brands-svg-icons'
 
 export default function Sidebar() {
     const [showNav, setShowNav] = useState(false);
@@ -48,6 +48,40 @@ export default function Sidebar() {
                     size="3x"
                     className='close-icon' 
                 />
+                <ul>
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/osama-nasser-a24959283/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" className="anchor-icon"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/Osama-75?tab=repositories"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" className="anchor-icon"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://web.facebook.com/profile.php?id=100012647887657"
+                            rel="noreferrer"
+                            target="_blank"
+                        >
+                            <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" className="-icon"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/+201095132663" rel="noreferrer" target="_blank">
+                            <FontAwesomeIcon icon={faWhatsapp} color="#4d4d4e" className="anchor-icon" />
+                        </a>
+                    </li>
+                </ul>
             </nav>
             <ul>
                 <li>
@@ -70,7 +104,7 @@ export default function Sidebar() {
                 </li>
                 <li>
                     <a
-                        href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+                        href="https://web.facebook.com/profile.php?id=100012647887657"
                         rel="noreferrer"
                         target="_blank"
                     >
@@ -78,8 +112,8 @@ export default function Sidebar() {
                     </a>
                 </li>
                 <li>
-                    <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-                        <FontAwesomeIcon icon={faSkype} color="#4d4d4e" className="anchor-icon" />
+                    <a href="https://wa.me/+201095132663" rel="noreferrer" target="_blank">
+                        <FontAwesomeIcon icon={faWhatsapp} color="#4d4d4e" className="anchor-icon" />
                     </a>
                 </li>
             </ul>

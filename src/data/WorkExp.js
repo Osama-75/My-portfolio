@@ -24,7 +24,7 @@ export const Work = [
         img: require("./imgs/my-portfolio.png"),
         tags:["react","api","sass"],
         
-        demo:"",
+        demo:"https://osama-nasser.vercel.app/",
         github:"https://github.com/Osama-75/My-portfolio"
     },
     {
