@@ -35,9 +35,8 @@ export default function About() {
                         best user experience.
                     </p>
                     <p>
-                        If I need to define myself in one sentence that would be a family
-                        person, father of a beautiful daughter, a sports fanatic,
-                        photography enthusiast, and tech-obsessed!!!
+                        I have Bachelor's degree, Engineering and 2+ years of experience in front-end 
+                        development as a freelancer.
                     </p>
                     <a
                         href=" "

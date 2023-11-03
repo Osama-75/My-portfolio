@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import LogoO from '../../assets/images/logo-o.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHome, faUser, faEnvelope, faSuitcase, faBars, faClose, faStar,} from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin, faGithub, faYoutube, faSkype,} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faYoutube, faSkype, faFacebook,} from '@fortawesome/free-brands-svg-icons'
 
 export default function Sidebar() {
     const [showNav, setShowNav] = useState(false);
@@ -52,7 +52,7 @@ export default function Sidebar() {
             <ul>
                 <li>
                     <a
-                        href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+                        href="https://www.linkedin.com/in/osama-nasser-a24959283/"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -61,7 +61,7 @@ export default function Sidebar() {
                 </li>
                 <li>
                     <a
-                        href="https://github.com/bobangajicsm"
+                        href="https://github.com/Osama-75?tab=repositories"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -74,7 +74,7 @@ export default function Sidebar() {
                         rel="noreferrer"
                         target="_blank"
                     >
-                        <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" className="-icon"/>
+                        <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" className="-icon"/>
                     </a>
                 </li>
                 <li>

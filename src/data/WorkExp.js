@@ -21,11 +21,11 @@ export const Work = [
     {
         id:3,
         name:"My Portfolio",
-        img: require("./imgs/Screenshot (326).png"),
+        img: require("./imgs/my-portfolio.png"),
         tags:["react","api","sass"],
         
         demo:"",
-        github:"https://github.com/codebucks27/devto-clone"
+        github:"https://github.com/Osama-75/My-portfolio"
     },
     {
         id:4,
